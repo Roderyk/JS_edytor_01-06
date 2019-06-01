@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="myDiv">
+        <textarea id="textarea1" rows="10" cols="35"></textarea>
+        <button id="btnZapisz">Zapisz</button>
+        <input type="file" id="upload" name="plik" accept="text/plain">
+    </div>
+    <div class="myDiv">
+        <canvas id="myCanvas3" width="900px" height="300px" style="border: 1px solid black; "></canvas>
+        <button id="tryb">Zmień tryb</button>
+        <input type="color" id="color" value="#f6b73c">
+        <input type="number" id="stroke" placeholder="grubość linii">
+        <input type="button" value="Ok" id="ok">
+        <input type="button" value="Zapisz canvas" id="saveImg">
+        <input type="file" id="imgUp" name="obrazek" accept="image/*">
+    </div>
+
+    <h3>Drag&drop</h3>
+    <div class="wrzutnia"></div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
